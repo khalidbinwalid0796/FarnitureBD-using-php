@@ -1,0 +1,9 @@
+<?php
+require('connection.inc.php');
+require('function.inc.php');
+unset($_SESSION['EMP_LOGIN']);
+unset($_SESSION['EMP_ID']);
+unset($_SESSION['EMP_NAME']);
+header('location:login.php');
+die();
+?>
